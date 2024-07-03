@@ -428,7 +428,8 @@ s32 mario_get_floor_class(struct MarioState *m) {
         floorClass = SURFACE_CLASS_NOT_SLIPPERY;
     }
 
-    return floorClass;
+    //return floorClass;
+    return SURFACE_CLASS_VERY_SLIPPERY;
 }
 
 // clang-format off
